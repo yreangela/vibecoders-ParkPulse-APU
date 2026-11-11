@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParkPulse APU - Live Dashboard</title>
+  <link rel="stylesheet" href="ParkPulse APU.css">
+</head>
+<body>
+
+  <!-- Header Banner -->
+  <header class="header">
+    <h1>ParkPulse APU</h1>
+    <p>Smart Campus Parking & Mobility System</p>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container">
+    
+    <!-- System Flow / Status Overview -->
+    <section class="card">
+      <h2>Live Parking Availability</h2>
+      
+      <table class="parking-table">
+        <thead>
+          <tr>
+            <th>Zone</th>
+            <th>Available Spots</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Zone A</strong> (Basement 1)</td>
+            <td>12 / 50</td>
+            <td><span class="badge status-available">Available</span></td>
+            <td><button class="btn">Reserve Spot</button></td>
+          </tr>
+          <tr>
+            <td><strong>Zone B</strong> (Multilevel)</td>
+            <td>2 / 40</td>
+            <td><span class="badge status-limited">Limited</span></td>
+            <td><button class="btn">Reserve Spot</button></td>
+          </tr>
+          <tr>
+            <td><strong>Zone C</strong> (Outdoor)</td>
+            <td>0 / 60</td>
+            <td><span class="badge status-full">Full</span></td>
+            <td><button class="btn btn-disabled" disabled>Full</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Quick Info Cards -->
+    <section class="grid-2">
+      <div class="card">
+        <h3>1. The Problem</h3>
+        <p>Students waste significant time driving around campus searching for open spots right before classes start.</p>
+      </div>
+
+      <div class="card">
+        <h3>2. Our Solution</h3>
+        <p>Real-time campus parking tracking to check availability instantly from any mobile or desktop web browser.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© ParkPulse APU Project Prototype</p>
+  </footer>
+
+</body>
+</html>
